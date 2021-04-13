@@ -14,8 +14,27 @@ body {
 hr {
     margin: 2rem 0rem;
 }
-
-
+.adjustment{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.grow{
+    flex-grow: 1;
+}
+.profile-pic {
+    border-radius: 50%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .line-gap{
+    line-height: 1.6
+  }
+  
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -74,7 +93,7 @@ hr {
 /** header **/
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 .hero .hero-img {
     max-width: 350px;
@@ -109,6 +128,9 @@ hr {
     text-align: center;
     color: white;
     border-bottom-right-radius: 1rem;
+    
+    
+    
     
 }
 
